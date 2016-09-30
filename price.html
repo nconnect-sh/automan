@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+    var topBtn = $('#pageTop');
+    topBtn.hide();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+</script>
+
+<link href="style.css" type="text/css" rel="stylesheet" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+jQuery(function($) {
+  
+var nav    = $('#fixedBox'),
+    offset = nav.offset();
+  
+$(window).scroll(function () {
+  if($(window).scrollTop() > offset.top) {
+    nav.addClass('fixed');
+  } else {
+    nav.removeClass('fixed');
+  }
+});
+  
+});
+</script>
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<script type="text/javascript">
+$(function () {
+
+  $(window).on("scroll", function () {
+    if ($(this).scrollTop() > 150) {
+      $(".navi2").slideDown();
+    } else {
+      $(".navi2").slideUp();
+    }
+  });
+
+});
+</script>
+
+<link rel="stylesheet" href="default.css">
+
+	</head>
+
+  <title>Auto Man</title>
+ </head>
+ <body>
+  
+<header class="navi2">header</header>
+<div class="navi2">
+<div class="navi2_frame">
+<ul class="navi_box">
+    <li class="navi_block f"><p><a href="about.html" >	　Auto Manとは　</a></p></li>
+    <li class="navi_block g"><p><a href="">　機能紹介　</a></p></li>
+    <li class="navi_block h"><p><a href="price.html">　料金プラン　</a></p></li>
+    <li class="navi_block i"><p><a href="">　選べるデザイン　</a></p></li>
+	<li class="navi_block j"><p><a href="faq.html">　よくあるご質問　</a></p></li>
+</ul>
+</div>
+</div>
+
+
+<div id="box">
+<div class="container">
+
+
+<ul id="header_box">
+    <a href="index.html"><li class="box1 a"></li></a>
+    <li class="box1 c">
+
+	<div class="button_box">
+	<div class="button_box_l">
+	<div class="button_box_l_t">
+	
+	</div>
+	<a href="contact.html">
+	<div class="button_box_l_b">	
+	</a>
+	</div>
+	</div>
+	<a href="trial.html">
+	<div class="button_box_r">	
+	</a>
+	</div>
+	</div>
+	</li>
+</ul>
+
+<div id="navi_area">
+<div id="navi">
+<ul class="navi_box">
+    <li class="navi_block f"><p><a href="about.html" >	　Auto Manとは　</a></p></li>
+    <li class="navi_block g"><p><a href="">　機能紹介　</a></p></li>
+    <li class="navi_block h"><p><a href="price.html">　料金プラン　</a></p></li>
+    <li class="navi_block i"><p><a href="">　選べるデザイン　</a></p></li>
+	<li class="navi_block j"><p><a href="faq.html">　よくあるご質問　</a></p></li>
+</ul>
+</div>
+</div>
+
+
+</div>
+
+
+<div class="title_price"></div>
+<div id="price_container">
+
+<div class="faq_com">
+<div class="faq_com_text">
+<span class="label2">プラン別料金表</span><br><br>
+<span class="label_p6">本価格表は「ご新規店舗様」の価格となります。本サービスでの「ご新規店舗様」とは、<br>
+過去に同一の 「店名・電話番号・URL」のいずれかを使用して、AUTO MANを利用したことがない店舗様を指します。</span>
+</div>
+</div>
+
+<table class="price_table">
+<tr>
+<th></td>
+<th class="td50_h"><span class="label_p2">プランA</span><hr><span class="label_p1">デザインデータを<br>お持ちいただくプランです。</span></td>
+<th class="td50_h_2"><span class="label_p2">プランB</span><hr><span class="label_p1">テンプレートから選択する<br>ベーシックなプランです。</span></td>
+<th class="td50_h_3"><span class="label_p2">乗せ換えプラン</span><hr><span class="label_p1">※1 現行サイトのデザインをコピーして<br>デザインを作成するプランです。</span></td>
+</tr>
+<tr>
+<td class="td50">初期費用</td>
+<td class="td50"><span class="label_p3">￥0</span><span class="label_task_1">（税別）</span><br><span class="label_p5">ご新規店舗様でない場合<br>￥20,000（税別）となります。</span></td>
+<td class="td50"><span class="label_p3">￥0</span><span class="label_task_1">（税別）</span><br><span class="label_p5">ご新規店舗様でない場合<br>￥20,000（税別）となります。</span></td>
+<td class="td50"><span class="label_p3">￥50,000</span><span class="label_task_1">（税別）</span><br><span class="label_p5">デザインデータのご提供を<br>お願いいたします。</span></td>
+</tr>
+<tr class="tr_1">
+<td class="td50">月額</td>
+<td class="td50"><span class="label_p3">￥20,000</span><span class="label_task_1">（税別）</span><br><span class="label_p4">導入月の費用は￥0です</span></td>
+<td class="td50"><span class="label_p3">￥20,000</span><span class="label_task_1">（税別）</span><br><span class="label_p4">導入月の費用は￥0です</span></td>
+<td class="td50"><span class="label_p3">￥20,000</span><span class="label_task_1">（税別）</span><br><span class="label_p4">導入月の費用は￥0です</span></td>
+</tr>
+<tr>
+<td class="td50">サイトデザイン</td>
+<td class="td50">お客様でデザイン</td>
+<td class="td50">テンプレートから選択</td>
+<td class="td50">弊社でデザイン</td>
+</tr>
+<tr class="tr_1">
+<td>納期</td>
+<td>3時間</td>
+<td>3営業日</td>
+<td>8営業日</td>
+</tr>
+<tr>
+<td>ロゴ制作</td>
+<td>×</td>
+<td>1種類</td>
+<td>お客様より提供</td>
+</tr>
+<tr>
+<tr class="tr_1">
+<td>レイアウト</td>
+<td>3種類から選択</td>
+<td>3種類から選択</td>
+<td>3種類から選択</td>
+</tr>
+<tr>
+<td>リンクバナー制作</td>
+<td>×</td>
+<td>5種類</td>
+<td>5種類</td>
+</tr>
+<tr class="tr_1">
+<td>トップバナー制作</td>
+<td>×</td>
+<td>×</td>
+<td>2種類</td>
+</tr>
+<tr>
+<td>求人バナー制作</td>
+<td>×</td>
+<td>×</td>
+<td>1種類</td>
+</tr>
+<tr class="tr_1">
+<td class="td_1">メールマガジン</td>
+<td colspan="3"><span class="label_1">初期費用￥10,000</span>
+<span class="label_task_2">（税別）</span>
+<span class="label_1">月額￥2,000</span>
+<span class="label_task_2">（税別）</span>
+</td>
+</tr>
+</table>
+
+
+<hr>
+
+<div class="faq_com">
+<div class="faq_com_text">
+<span class="label2">納品後の変更対応について</span><br><br>
+<span class="label_p6">納品後の変更作業や、各種画像やバナー制作時のお値段を表記しております。<br>
+表記の無い項目に関しましてはお手数ですがお問い合わせください。</span>
+</div>
+
+
+<table class="price_table_2">
+<tr>
+<th class="th_1">変更内容</th>
+<th class="th_1">備考</th>
+<th class="th_1">価格</th>
+</tr>
+<tr>
+<td>プラン変更</td>
+<td>Aプランに変更する</td>
+<td>￥20,000<span class="label_task_2">（税別）</span></td>
+</tr>
+<tr>
+<td>〃</td>
+<td>Bプランに変更する</td>
+<td>￥20,000<span class="label_task_2">（税別）</span></td>
+</tr>
+<tr>
+<td>イベントバナー作成</td>
+<td>AUTO MANのプラン内での価格</td>
+<td>¥2,000<span class="label_task_2">（税別）</span></td>
+</tr>
+<tr>
+<td>求人バナー作成</td>
+<td>AUTO MANのプラン内での価格</td>
+<td>¥2,000<span class="label_task_2">（税別）</span></td>
+</tr>
+<tr>
+<td>ロゴ作成</td>
+<td>AUTO MANのプラン内での価格</td>
+<td>¥2,000 <span class="label_task_2">（税別）</span></td>
+</tr>
+<tr>
+<td>リンクバナー作成5種</td>
+<td>AUTO MANのプラン内での価格</td>
+<td>¥2,000 <span class="label_task_2">（税別）</span></td>
+</tr>
+<tr>
+<td>レイアウト変更</td>
+<td>※自由なレイアウトに対応するものではありません。<br>
+レイアウト1~3で選択して下さい。</td>
+<td>¥2,000 <span class="label_task_2">（税別）</span></td>
+</tr>
+<tr>
+<td>ロゴ変更</td>
+<td>1点</td>
+<td>¥2,000 <span class="label_task_2">（税別）</span></td>
+</tr>
+<tr>
+<td>メルマガ新規申し込み</td>
+<td>月額\2,000 (導入月の費用は\0)</td>
+<td>¥2,000 <span class="label_task_2">（税別）</span></td>
+</tr>
+<tr>
+<td>ファビコン変更</td>
+<td>1点</td>
+<td>¥2,000 <span class="label_task_2">（税別）</span></td>
+</tr>
+<tr>
+<td>メールアドレス変更</td>
+<td>1件
+（新規お申し込み時に設定したメールアドレスからの変更）</td>
+<td>¥2,000 <span class="label_task_2">（税別）</span></td>
+</tr>
+<tr>
+<td>メールアドレス追加</td>
+<td>1件（最大5件まで追加可能です）</td>
+<td>¥2,000 <span class="label_task_2">（税別）</span></td>
+</tr>
+<tr>
+<td>営業時間変更</td>
+<td></td>
+<td>¥2,000<span class="label_task_2">（税別）</span></td>
+</tr>
+<tr>
+<td>所在地（住所）変更</td>
+<td></td>
+<td>¥2,000 <span class="label_task_2">（税別）</span></td>
+</tr>
+<tr>
+<td>オリジナル以外の写メ日記追加</td>
+<td>シティヘブン・デリヘルタウン・ぴゅあらばに対応</td>
+<td>¥2,000 <span class="label_task_2">（税別）</span></td>
+</tr>
+</table>
+
+<br><br>
+変更作業の納期について<br><br>
+<span class="label_p6">Aプランへの変更　…　注文後1営業日<br>
+Bプランへの変更　…　注文後3営業日<br>
+その他の変更はすべて注文後3営業日</span>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div id="footer">
+<div id="footer_area">
+<ul class="footer_box">
+    <li class="box3 l"></li>
+	<li class="box3 o"></li>
+    <li class="box3 m">
+	<p><span class="weightb">合同会社エヌコネクト</span><br>〒601-8005 京都市南区東九条西岩本町10-2イリアスビル２F<br>http://nconnect.co/</p>
+	</li>
+</ul>
+<ul class="footer_box">
+    <li class="box4 n">
+	<hr>
+	 <p><a href="">Auto Manとは</a>　｜　<a href="">機能紹介</a>　｜　<a href="">料金プラン</a>　｜　<a href="">選べるデザイン</a>　｜　<a href="">よくあるご質問</a></p>
+	
+	</li>
+</ul>
+</div>
+</div>
+
+<a id="pageTop" href="#"><span></span></a>
+
+ </body>
+</html>

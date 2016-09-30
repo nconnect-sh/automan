@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+    var topBtn = $('#pageTop');
+    topBtn.hide();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+</script>
+
+<link href="style.css" type="text/css" rel="stylesheet" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+jQuery(function($) {
+  
+var nav    = $('#fixedBox'),
+    offset = nav.offset();
+  
+$(window).scroll(function () {
+  if($(window).scrollTop() > offset.top) {
+    nav.addClass('fixed');
+  } else {
+    nav.removeClass('fixed');
+  }
+});
+  
+});
+</script>
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<script type="text/javascript">
+$(function () {
+
+  $(window).on("scroll", function () {
+    if ($(this).scrollTop() > 150) {
+      $(".navi2").slideDown();
+    } else {
+      $(".navi2").slideUp();
+    }
+  });
+
+});
+</script>
+
+<link rel="stylesheet" href="default.css">
+
+	</head>
+
+  <title>Auto Man</title>
+ </head>
+ <body>
+
+ <header class="navi2">header</header>
+<div class="navi2">
+<div class="navi2_frame">
+<ul class="navi_box">
+    <li class="navi_block f"><p><a href="about.html" >	　Auto Manとは　</a></p></li>
+    <li class="navi_block g"><p><a href="">　機能紹介　</a></p></li>
+    <li class="navi_block h"><p><a href="price.html">　料金プラン　</a></p></li>
+    <li class="navi_block i"><p><a href="">　選べるデザイン　</a></p></li>
+	<li class="navi_block j"><p><a href="faq.html">　よくあるご質問　</a></p></li>
+</ul>
+</div>
+</div>
+
+  
+<div id="box">
+<div class="container">
+
+
+<ul id="header_box">
+    <a href="index.html"><li class="box1 a"></li></a>
+    <li class="box1 c">
+
+	<div class="button_box">
+	<div class="button_box_l">
+	<div class="button_box_l_t">
+	
+	</div>
+	<a href="contact.html">
+	<div class="button_box_l_b">	
+	</a>
+	</div>
+	</div>
+	<a href="trial.html">
+	<div class="button_box_r">	
+	</a>
+	</div>
+	</div>
+	</li>
+</ul>
+
+
+<div id="navi_area">
+<div id="navi">
+<ul class="navi_box">
+    <li class="navi_block f"><p><a href="about.html" >	　Auto Manとは　</a></p></li>
+    <li class="navi_block g"><p><a href="">　機能紹介　</a></p></li>
+    <li class="navi_block h"><p><a href="price.html">　料金プラン　</a></p></li>
+    <li class="navi_block i"><p><a href="">　選べるデザイン　</a></p></li>
+	<li class="navi_block j"><p><a href="faq.html">　よくあるご質問　</a></p></li>
+</ul>
+</div>
+</div>
+
+</div>
+<div class="title_trial"></div>
+<div id="trial_container">
+<div id="trial_area">
+
+<table id="table_trial">
+
+<tr>
+<td colspan="2" class="td0"><img src="img/trial_course03.png"></td>
+</tr>
+
+<tr>
+<td class="td1">都道府県</td>
+<td class="td2">%%</td>
+</tr>
+
+<tr>
+<td class="td1">ご利用開始希望日</td>
+<td class="td2">%%</td>
+</tr>
+
+<tr>
+<td class="td1">店舗名</td>
+<td class="td2">%%</td>
+</tr>
+
+<tr>
+<td class="td1">ご担当者様名</td>
+<td class="td2">%%</td>
+</tr>
+
+<tr>
+<td class="td1">メールアドレス</td>
+<td class="td2">%%</td>
+</tr>
+
+<tr>
+<td class="td1">ご連絡先電話番号</td>
+<td class="td2">%%</td>
+</tr>
+
+<tr>
+<td class="td1">ご連絡希望時間帯</td>
+<td class="td2">%%</td>
+</tr>
+
+<tr>
+<td class="td1">リモートデスクトップサービス</td>
+<td class="td2">%%</td>
+</tr>
+
+<tr>
+<td class="td1">届出書確認</td>
+<td class="td2">%%</td>
+</tr>
+
+<tr>
+<td class="td1">備考</td>
+<td class="td2">%%</td>
+</tr>
+
+
+
+
+
+</table>
+
+<div class="submit_area">
+<a href="trial2.html">
+<button type="submit" class="submit_button">詳細入力画面に戻る</button>
+</a>
+<a href="trial4.html">
+<button type="submit" class="submit_button">この内容で送信する</button>
+</a>
+</div>
+
+
+</div>
+</div>
+
+<div id="footer">
+<div id="footer_area">
+<ul class="footer_box">
+    <li class="box3 l"></li>
+	<li class="box3 o"></li>
+    <li class="box3 m">
+	<p><span class="weightb">合同会社エヌコネクト</span><br>〒601-8005 京都市南区東九条西岩本町10-2イリアスビル２F<br>http://nconnect.co/</p>
+	</li>
+</ul>
+<ul class="footer_box">
+    <li class="box4 n">
+	<hr>
+	 <p><a href="">Auto Manとは</a>　｜　<a href="">機能紹介</a>　｜　<a href="">料金プラン</a>　｜　<a href="">選べるデザイン</a>　｜　<a href="">よくあるご質問</a></p>
+	
+	</li>
+</ul>
+</div>
+</div>
+
+<a id="pageTop" href="#"><span></span></a>
+
+ </body>
+</html>
