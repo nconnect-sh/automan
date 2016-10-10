@@ -6,7 +6,7 @@ pre,form,fieldset,input,textarea,select,option,
 p,blockquote,th {  
 	margin:0;
 	padding:0;
-  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','Meiryo UI','メイリオ',Verdana,'ＭＳ Ｐゴシック',sans-serif;
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','Meiryo','メイリオ',Verdana,sans-serif;
 	}
 
 body,html{height:100%;font-size:0px;}
@@ -227,13 +227,14 @@ letter-spacing: 1px;
   transition: all 0.35s ease;
 }
 .navi_box li {
+  width: 25%;
   display: inline-block;
   list-style: outside none none;
   margin: 0.4em 0.8em;
   padding: 0;
 }
 .navi_box a {
-  padding: 0 0.7em;
+  padding: 0 2em;
   color: rgba(0, 0, 0, 0.8);
   position: relative;
   text-decoration: none;
@@ -554,7 +555,7 @@ text-align:left;
 #about_container
 {
 height:100%;
-padding-bottom:50px;
+padding-bottom:0px;
 }
 
 .title_fuction{
@@ -563,25 +564,45 @@ padding-bottom:50px;
   background: url("img/title_bg.png") no-repeat #0495c7 center top;  
 }
 
+div.wrapper_gray{
+  padding: 50px 0 80px;
+  background: #eeeeee;
+}
+
+p#h_titile_function_explanations{
+  width: 1000px;
+  margin: 0 auto 45px;  
+  padding: 10px 0;
+  border:6px solid #000;
+  border: 10px solid #0495c7;
+  background-color: #0495c7;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size:  20px;
+  text-align: center; 
+  }
+
 p.contents_explanation{
-  width: 800px;
+  width: 1000px;
   height: 120px;
   margin: 0 auto;
   padding: 80px 0 0 0;
-  font-size: 30px;
+  font-size: 34px;
   font-weight: normal;
   text-align: center;
 }
 
 div.function_explanations{
-  width: 695px;
+  width: 815px;
   height: auto;
   min-height: 100px;
   margin: 30px auto;
   padding: 20px 20px 20px 165px;
   background-repeat: no-repeat;
   background-position: 15px 15px;
-  border: 12px solid #eeeeee;
+  border: 10px solid #fff;
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
 div.function_explanations#fe01{
@@ -604,14 +625,15 @@ div.function_explanations#fe04{
 
     p.function_title{
       height: auto;
-      padding-bottom: 15px;
-      font-size: 23px;
+      padding-bottom: 8px;
+      font-size: 22px;
       color: #0495c7;
-      border-bottom: 1px solid #555;
+      border-bottom: 1px solid #ddd;
+      font-weight: bold;  
     }
     p.function_statements{
       height: auto;
-      margin-top: 10px;
+      margin-top: 14px;
       font-size: 13px;
       line-height: 2em;
       color: #555;
@@ -768,7 +790,7 @@ padding:20px;
 
 .td50_h_2{
 width:250px;
-background-color:#21a2ce;
+background-color:#5ab9da;
 vertical-align:top;
 padding:20px;
 }
@@ -780,9 +802,22 @@ vertical-align:top;
 padding:20px;
 }
 
+.price_table th{
+padding:20px;
+width:130px;
+border:1px solid #ccc;
+border-width: 1px 0 0 1px;
+}
+
+
+.price_table th.th_blank{
+padding:20px;
+width:130px;
+border:0 solid #ccc;
+}
+
 .price_table td{
 padding:20px;
-width:250px;
 border-bottom:1px solid #ccc;
 }
 
@@ -1058,6 +1093,8 @@ p{color:#fff;text-align: left;}
 .x{}
 .y p{color:#fff;text-align: right;}
 
+.faq_block.x{width: 90%}
+.faq_block.y{width: 10%}
 
 
 input[type="checkbox"].on-off{
@@ -1082,9 +1119,11 @@ input[type="checkbox"].on-off{
 	text-align:left;
 }
 
+
 .inline-block {
 	text-align: center;
 	}
+
 .inline-block li {
 	display: inline-block;
 	width:980px;
@@ -1098,10 +1137,6 @@ input[type="checkbox"].on-off + ul{
 input[type="checkbox"].on-off:checked + ul{
     height: 110px;
 }
-
-
-
-
 
 /*  FAQ end  */
 
@@ -1504,7 +1539,7 @@ filter: alpha(opacity=80);
 
 .con2index{
     width:1200px;
-    height:250px;
+    height:350px;
     margin: 0 auto;
     background-color:#fff;
     display:block;
@@ -1523,8 +1558,8 @@ filter: alpha(opacity=80);
 
   p.index_news_title{
     width: 95%;
-    margin: 0 0 20px;
-    padding: 0 0 10px 0;
+    margin: 0 0 12px;
+    padding: 0 0 0 0;
     font-size: 16px;
     color: #0495c7;
     font-weight: bold;
@@ -1533,7 +1568,7 @@ filter: alpha(opacity=80);
 
   div.agency_agreement{
     width: 595px;
-    margin: 30px 0 0 0;
+    margin: 54px 0 0 0;
     padding: 0;
     float: right;
   }
@@ -1543,7 +1578,7 @@ filter: alpha(opacity=80);
   }
   ul#index_news li{
     width: 95%;
-    margin: 0 10px 20px 0;
+    margin: 10px 10px 10px 0;
     padding: 0 0 10px 0;
     font-size: 13px;
     clear: both;
@@ -1603,6 +1638,84 @@ filter: alpha(opacity=80);
 
   ul#index_news li a:hover span.news_title{
     color: #0495c7;
+  }
+
+  span.r_blue{
+    color: #35b4df;
+  }
+
+  div.sales_points{
+    width: 1060px;
+    margin: 0 auto;
+    padding: 50px 0 30px 0;
+    overflow: hidden;
+  }  
+
+  div.sales_points_explanations{
+    width: 470px;
+    height: 310px;
+    padding: 140px 0 0 0px;
+    margin: 0 20px 30px;
+    border: 10px solid #eeeeee;
+    border-radius: 15px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center 30px;
+    background-color: #ffffff;
+  }
+
+  div.sales_points_explanations#sp01{
+    background-image: url(img/point_icon_01.png);
+  }
+
+  div.sales_points_explanations#sp02{
+    background-image: url(img/point_icon_02.png);
+  }
+
+  div.sales_points_explanations#sp03{
+    background-image: url(img/point_icon_03.png);
+    height: 280px;
+  }
+
+  div.sales_points_explanations#sp04{
+    background-image: url(img/point_icon_04.png);
+    height: 280px;
+  }
+
+  p.sales_points_statements_option{
+    width: 90%;
+    margin: 10px auto 0;
+    font-size: 11px;
+    color: #0495c7;
+  }
+
+    p.sales_ponts_title{
+      width: 90%;
+      margin: 0 auto 15px;
+      padding: 20px 0 10px;
+      font-size: 22px;
+      color: #0495c7;
+      font-weight: bold;
+      text-align: center;
+      border-bottom: 1px dotted #999;
+    }
+    p.sales_points_statements{
+      width: 90%;
+      margin: 0 auto;
+      font-size: 14px;
+      color: #555555;
+      line-height: 1.8;
+    }
+
+  p#delivery_date{
+    max-width: 600px;
+    margin: 50px auto 10px;
+    padding: 0 0 10px 0;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    color: #555;
+    border-bottom: 1px dotted #aaa;
   }
 
 /* //add -------------------------------------------------------------------------------------- */
